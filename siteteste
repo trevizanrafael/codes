@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>RafaelMoraesTrevizan</title>
+  <style>
+    body {
+      background-color: #ffffff;
+    }
+
+    h1 {
+      color: yellow;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+      position: relative; /* Posiciona o h1 para que possamos colocar a tarja na frente */
+      z-index: 1; /* Garante que o h1 fique acima da tarja */
+    }
+
+    h2 {
+      color: black;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+
+    p {
+      color: black;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+
+    .top-line {
+      position: absolute; /* Posiciona a tarja em relação ao h1 */
+      top: 0; /* Fixa a tarja na parte superior */
+      left: 0;
+      right: 0;
+      height: 70px; /* Altura da tarja */
+      background-color: black; /* Cor da tarja */
+      z-index: 0; /* Coloca a tarja atrás do h1 */
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Rafael Moraes Trevizan</h1>
+  <img src="Rafael Trevizan.png" alt="Imagem local">
+  <h2>Site teste vai funcionar</h2>
+  <p>Não sei o que to pondo mas to escrevendo</p>
+
+  <div class="top-line">Listra preta na parte superior</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
