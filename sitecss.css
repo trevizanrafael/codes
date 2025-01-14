@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.logo {
+  width: Fixed (148px)px;
+  height: Hug (26.99px)px;
+  gap: 8px;
+  opacity: 0px;
+}
+
+.botoes_esquerda {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.geral {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: Fixed (1280px);
+  height: Hug (44px);
+  padding: 18px 32px 0px 32px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.botoes_esquerda_elementos {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 20px;
+  font-family: "Jersey 10", serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #667085;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.botoes_direita {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.botoes_direita_vermelho {
+  background-color: #8E2424;
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: Hug (112px)px;
+  height: Hug (44px)px;
+  padding: 10px 18px 10px 18px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: none;
+}
+
+.botoes_direita_elementos {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 20px;
+  font-family: "Jersey 10", serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #667085;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.p {
+  width: 142px;
+  height: 32px;
+  gap: 10px;
+  opacity: 0px;
+}
