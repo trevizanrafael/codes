@@ -1,135 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Playwrite+AU+SA:wght@100..400&display=swap');
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
 body {
-  font-size: 100%;
-  background: linear-gradient(68.15deg, #CCA9DD 16.63%, #BFDDF3 85.61%);
+    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.cabecalho {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  padding: 24px;
+
+body::before {
+    background-image: url("img/code.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
 }
 
-.img_cabecalho {
-  width: 70px;
-  height: auto;
+.container {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 1px solid #1875E8;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-image: url("img/Ruido.png");
+    background-size: 100% 100%;
+    position: relative;
 }
 
-.cabecalho_menu {
-  display: flex;
-  gap: 45px;
+.container__conteudo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
 }
 
-.cabecalho_menu_item {
-  font-family: "Jersey 15", serif;
-  color: white;
-  font-weight: 400;
-  font-size: 32px;
+.container__informacoes {
+    flex: 1;
+    padding: 20px;
 }
 
-.conteudo {
-  border-top: 0.4px solid #000000;
-  margin-bottom: 36px;
+.container__botao {
+    border-radius: 16px;
+    background: #1875E8;
+    padding: 16px 24px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    margin-top: 16px;
 }
 
-.conteudo_principal {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
+.container__texto {
+    margin: 16px 0 16px 0;
 }
 
-.conteudo_principal_texto {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+.container__texto-azul {
+    color: #1875E8;
 }
 
-.conteudo_principal_titulo {
-  font-family: "Jersey 15", serif;
-  font-weight: 400;
-  font-size: 64px;
-  color: white;
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 72px;
 }
 
-.conteudo_principal_subtitulo {
-  font-family: "Jersey 10", serif;
-  font-weight: 400;
-  color: white;
-  font-size: 24px;
+h2,
+p,
+button {
+    font-family: 'Inter', sans-serif;
 }
 
-.conteudo_principal_botao {
-  background-color: #BFDDF3;
-  width: 185px;
-  height: 67px;
-  border: none;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  font-family: "Jersey 10", serif;
-  font-size: 24px;
-  font-weight: 400;
-  color: white;
-}
-
-.conteudo_principal_imagem {
- height: 430px; 
-}
-
-.conteudo_secundario {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  margin-top: 48px;
-}
-
-.conteudo_secundario_titulo {
-  border-top: 0.4px solid #000000;
-  padding-top: 48px;
-  font-family: "Jersey 10", serif;
-  font-size: 24px;
-  font-weight: 400;
-  color: white;
-  margin-bottom: 16px;
-}
-
-.conteudo_secundario_paragrafo {
-  font-family: "Jersey 15", serif;
-  color: white;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-.conteudo_secundario_imagem {
-  width: 70px;
-  height: auto;
-}
-
-.rodape {
-  padding: 32px;
-  border-top: 0.4px solid #000000;
-}
-
-.rodape_logo {
-  display: block;
-  margin: 0 auto;
-  height: 48px;
-  font-family: "Playwrite AU SA", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  color: white;
-  font-weight: 1000;
+h2 {
+    font-size: 32px;
+    font-weight: 400;
 }
