@@ -1,6 +1,6 @@
 CREATE SCHEMA rafael3;
 USE rafael3;
-
+https://docs.google.com/document/d/1kiM3olx1DLnHmzlLFppjRGJO0M2Z4g5bQ3hNsHPUIBQ/edit?usp=drivesdk
 CREATE TABLE Fabricante(
 Codigo INT,
 Nome VARCHAR(50),
