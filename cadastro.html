@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Cadastro - SAQA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/imgs/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="login-page">
+  <header>
+    <img src="assets/imgs/logo-saqa-horizontal.png" alt="Logo SAQA">
+  </header>
+
+  <div class="container">
+    <form action="login.html" method="get" novalidate>
+      <h2>Criar conta</h2>
+
+      <label for="nome">Nome completo</label>
+      <input id="nome" name="nome" required>
+
+      <label for="email">E-mail corporativo</label>
+      <input id="email" name="email" type="email" inputmode="email" autocomplete="email" required>
+
+      <label for="empresa">Empresa</label>
+      <input id="empresa" name="empresa" required>
+
+      <label for="unidade">Unidade industrial</label>
+      <input id="unidade" name="unidade">
+
+      <label for="cargo">Cargo</label>
+      <input id="cargo" name="cargo">
+
+      <button type="submit">Cadastrar</button>
+
+      <p class="ajuda">Já tem conta? <a href="login.html">Entrar</a></p>
+    </form>
+  </div>
+
+    <footer id="rodape_base">
+        <div class="rodape_conteudo">
+        <div class="rodape_logo_linha">
+            <img class="rodape_logo" src="assets/imgs/logo-saqa-horizontal.png" alt="Logo SAQA">
+            <p class="rodape_slogan">Tecnologia a favor da segurança alimentar.</p>
+        </div>
+
+        <div class="rodape_creditos">
+            <span>© 2025 SAQA — Sistema Automatizado de Qualidade Alimentar</span>
+            <span>•</span>
+            <a class="rodape_link" href="https://marianagpalacios.github.io/CurriculumVitae-FrontEnd/" target="_blank" rel="noopener">
+            Currículo — Mariana Palácios
+            </a>
+            <span>•</span>
+            <a class="rodape_link" href="https://trevizanrafael.github.io/curriculo/" target="_blank" rel="noopener">
+            Currículo — Rafael Trevizan
+            </a>
+            <span>•</span>
+            <a class="rodape_link" href="#" target="_blank" rel="noopener">
+            Currículo — João Vitor Romani
+            </a>
+            <span>•</span>
+            <a class="rodape_link" href="#">Política de Privacidade</a>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
